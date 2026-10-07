@@ -1,8 +1,8 @@
-# VCAU-Net
+# Breast-DCE-MRI-Dual-Segments
 
 **Structure-Preserving Cross-Phase Alignment and Uncertainty-Guided Fusion for 3D Breast Tumor Segmentation in DCE-MRI**
 
-> Official repository for **VCAU-Net**, a dual-phase 3D DCE-MRI breast tumor segmentation framework designed to reduce residual cross-phase misalignment and adaptively fuse phase information according to local prediction reliability.
+> Official repository for **Breast-DCE-MRI-Dual-Segments**, a dual-phase 3D DCE-MRI breast tumor segmentation framework designed to reduce residual cross-phase misalignment and adaptively fuse phase information according to local prediction reliability.
 
 ---
 
@@ -10,7 +10,7 @@
 
 Dynamic contrast-enhanced magnetic resonance imaging (DCE-MRI) provides complementary information across enhancement phases. Residual spatial misalignment may remain after rigid registration because of respiration, patient motion, and breast deformation. The reliability of the early and delayed enhancement phases may also vary across tumor interiors, boundaries, and low-contrast regions.
 
-VCAU-Net follows an **alignment-before-fusion** strategy:
+Breast-DCE-MRI-Dual-Segments follows an **alignment-before-fusion** strategy:
 
 1. **Phase-specific shallow stems** capture phase-dependent appearance cues.
 2. A **shared 3D encoder** maps both enhancement phases into a comparable semantic space.
